@@ -1,0 +1,21 @@
+# OS metadata
+.DS_Store
+
+# Local credentials and signing material
+.env*
+!.env.example
+!**/.env.example
+.secrets/
+.npmrc
+.pypirc
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.mobileprovision
+*.jks
+*.keystore
+**/key.properties
+*service-account*.json
+firebase-adminsdk-*.json
